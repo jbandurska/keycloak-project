@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Kanit", sans-serif;
+  background-color: #efefef;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  box-shadow: 0px 0px 20px -5px rgb(66, 68, 90);
+  border-radius: 20px;
+  width: 70%;
+  min-height: 85%;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.navbar {
+  background-color: navy;
+  height: 100%;
+  width: -moz-min-content;
+  width: min-content;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.navbar .title {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.navbar ul.links {
+  list-style-type: none;
+}
+.navbar ul.links li {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: 0.1s linear;
+  text-align: center;
+}
+.navbar ul.links li a {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  color: navy;
+}
+.navbar ul.links li:hover {
+  background-color: rgba(255, 255, 255, 0.99);
+}
+.navbar .login-button {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: navy;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.1rem;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin: 20px;
+  transition: 0.1s linear;
+}
+.navbar .login-button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.navbar .button-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: auto;
+}
+
+.inner-page {
+  padding: 30px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.inner-page h1, .inner-page h4 {
+  text-align: center;
+}
+.inner-page img {
+  width: 50%;
+}
+
+.center-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 30px);
+}/*# sourceMappingURL=index.css.map */
